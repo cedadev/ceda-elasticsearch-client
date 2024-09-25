@@ -3,7 +3,7 @@ from elasticsearch import Elasticsearch
 import os
 
 CA_ROOT = os.path.join(os.path.dirname(__file__), 'root-ca.pem')
-hosts = ['https://es%s.ceda.ac.uk:9200' % i for i in range(9,17)]
+hosts = ['https://es%s.ceda.ac.uk:9200' % i for i in range(1,9)]
 
 class CEDAElasticsearchClient(Elasticsearch):
     """
