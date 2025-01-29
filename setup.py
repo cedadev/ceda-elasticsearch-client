@@ -13,7 +13,7 @@ long_description = open(os.path.join(here, "README.md")).read()
 
 setup(
     name='ceda-elasticsearch-client',
-    version='0.0.1',
+    version='1.0.0',
     description='CEDA elasticsearch client',
     long_description=long_description,
 
